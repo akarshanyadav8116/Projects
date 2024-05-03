@@ -1,0 +1,124 @@
+.App{
+  text-align: center;
+}
+button{
+  cursor: pointer;
+}
+.dice{
+  display:flex;
+  padding: 13%;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+.content{
+  display: block;
+  margin-top: 5%;
+}
+.content h1{
+  font-size: 550%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+button{
+  background-color: black;
+  color: white;
+  float: right;
+  padding: 1% 12%;
+  border-radius: 5px;
+  font-size: large;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+.scoreboard h1{
+  font-size: 550%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 24px;
+}
+h3{
+  margin: 0px 0px;
+  text-align: center;
+}
+.rightnav p{
+  text-align: right;
+  color: red;
+  margin:0px;
+}
+.rightnav h4{
+  text-align: right;
+}
+.PlayGround{
+  display: grid;
+}
+.numbercards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.numbercards button{
+  margin-left: 10px;
+  padding: 15px 20px;
+  background-color: white;
+  color:black;
+  border-style: solid;
+  border-width:3px;
+}
+.numbercards :hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.diceplay{
+  display:grid;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+.diceplaybuttons{
+  display:grid;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.diceplaybuttons button{
+  margin-top: 9%;
+}
+.whitebutton{
+  background-color: white;
+  color:black;
+}
+.diceplaybuttons h6{
+  margin: 10px 0px;
+}
+.diceplay img{
+  height: 150px;
+}
+.imgbtn{
+  background-color: white;
+  border: none;
+}
+.diceplay h3{
+  margin-top: 2%;
+}
+.Rules{
+  font-size: small;
+  font-weight: 500;
+  background-color: #FBF1F1;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin:1% 25% 0% 25%;
+}
+.status{
+  padding-left: 43%;
+}
+
+
